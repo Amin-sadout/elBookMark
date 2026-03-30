@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElBookMark</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="top-bar">
+      <div class="top-text">
+        <h1>elBookmark saver</h1>
+        <p class="subtitle">your temu version of a bookmark saver</p>
+      </div>
+      <button id="themeBtn">Dark Mode</button>
+    </div>
+
+    <div class="form-box">
+      <input type="text" id="titleInput" placeholder="Enter website title" />
+      <input type="text" id="urlInput" placeholder="Enter website URL" />
+      <button id="addBtn">Add Bookmark</button>
+      <button id="cancelBtn" class="hidden">Cancel Edit</button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search bookmarks..." />
+    </div>
+
+    <p id="totalBookmarks"></p>
+
+    <ul id="bookmarkList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
